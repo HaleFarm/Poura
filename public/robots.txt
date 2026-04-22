@@ -1,0 +1,19 @@
+# Pre-launch: block all search engines from the site.
+# When ready to go live, swap the block below with the production block at the bottom of this file.
+
+User-agent: *
+Disallow: /
+
+# -------------------------------------------------------------------
+# PRODUCTION (commented out — use when launching):
+#
+# User-agent: *
+# Allow: /
+# Disallow: /hcp
+# Disallow: /prescribers
+# Disallow: /practitioner
+# Disallow: /assets/pi/
+# Disallow: /assets/cmi/
+#
+# Sitemap: https://poura.com.au/sitemap.xml
+# -------------------------------------------------------------------
