@@ -132,8 +132,8 @@ function PageHome({onNav}){
         </div>
         <Reveal delay={200} y={40} style={{display:"flex"}}>
           <div style={{position:"relative", flex:1, overflow:"hidden", background:"var(--burgundy-deep)", borderRadius:30}}>
-            <img src="assets/lifestyle-woman-glass.jpg" alt="A person drinking from a glass"
-              style={{position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", objectPosition:"center 35%", display:"block", filter:"contrast(0.96) saturate(0.92)"}}/>
+            <img src="assets/lifestyle-glass-clean.jpg" alt="A clear glass of water in soft light"
+              style={{position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", display:"block"}}/>
             <div style={{position:"absolute",inset:0,border:"1px solid rgba(241,232,208,.25)", borderRadius:30, pointerEvents:"none"}}/>
           </div>
         </Reveal>
@@ -210,7 +210,7 @@ function PageHome({onNav}){
         </Reveal>
         <Reveal delay={180} y={30}>
           <figure style={{margin:0, position:"relative", overflow:"hidden", borderRadius:30, aspectRatio:"4/3", minWidth:0}}>
-            <img src="assets/lifestyle-bottle.jpg" alt="A person drinking from a water bottle outdoors"
+            <img src="assets/lifestyle-tea-book.jpg" alt="Hands holding a mug of tea while reading a book"
               style={{position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", display:"block"}}/>
             <figcaption style={{
               position:"absolute", left:24, right:24, bottom:24,
