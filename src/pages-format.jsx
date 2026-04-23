@@ -52,7 +52,7 @@ function PageFormat({onNav}){
     <Section bg="cream" style={{paddingTop:isMobile?60:80, paddingBottom:40}}>
       <div style={{display:"grid", gridTemplateColumns:isMobile?"1fr":"minmax(0,1.2fr) minmax(0,1fr)", gap:isMobile?28:48, alignItems:"stretch"}}>
         <figure style={{margin:0, position:"relative", overflow:"hidden", borderRadius:30, aspectRatio:"5/4", minWidth:0}}>
-          <img src="assets/glass-water-marble.jpg" alt="A clear glass of water on a marble surface"
+          <img src="assets/lifestyle-bottle.jpg" alt="A man drinking from a glass bottle"
             style={{position:"absolute", inset:0, width:"100%", height:"100%", objectFit:"cover", display:"block"}}/>
         </figure>
         <div style={{minWidth:0, display:"flex", flexDirection:"column", justifyContent:"space-between", paddingTop:12}}>
