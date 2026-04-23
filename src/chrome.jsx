@@ -121,7 +121,7 @@ function TopNav({route, onNav, theme="cream"}){
 function RegulatoryBanner(){
   const { isMobile } = useViewport();
   return (
-    <div style={{background:"var(--ink)",color:"var(--cream)",padding:isMobile?"14px 20px":"18px 48px",textAlign:"center",fontSize:isMobile?10:11,letterSpacing:".12em", lineHeight:1.5}} className="uc mono">
+    <div style={{background:"var(--ink)",color:"var(--cream)",padding:isMobile?"14px 20px 22px":"18px 48px",textAlign:"center",fontSize:isMobile?10:11,letterSpacing:".12em", lineHeight:1.5}} className="uc mono">
       This site contains general information about a prescription-only medicine. Available only on prescription from a registered Australian healthcare practitioner.
     </div>
   );
